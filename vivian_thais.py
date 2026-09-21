@@ -34,12 +34,12 @@ class Aluno:
 # Etapa 2 - Aplicação e Teste 
 
 aluno1 = Aluno("Ana", "20261234")
-aluno1.lancar_nota(7.2)
-aluno1.lancar_nota(8.5)
+aluno1.lancar_nota(7.5)
+aluno1.lancar_nota(7.5)
 
 aluno2 = Aluno("Helena", "20261235")
 aluno2.lancar_nota(5.0)
-aluno2.lancar_nota(9.6)
+aluno2.lancar_nota(9.5)
 
 aluno3 = Aluno("Rafael", "20261236")
 aluno3.lancar_nota(6.0)
