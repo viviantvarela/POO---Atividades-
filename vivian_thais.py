@@ -71,6 +71,8 @@ class Retangulo:
             return False
         else:
             return self.base == outro.base and self.altura == outro.altura
+
+# Exemplos:
         
 r1 = Retangulo(6, 10)
 r2 = Retangulo(6, 10)
