@@ -81,7 +81,7 @@ r3 = Retangulo(5, 16)
 print(r1 == r2)
 print(r1 == r3)
 
-# Etapa 2 - Classe Data (dia, mês ano)
+# Etapa 2 - Classe Data(dia, mes ano)
 
 class Data:
     def __init__(self, dia: int, mes: int, ano: int):
