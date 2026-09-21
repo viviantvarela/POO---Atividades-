@@ -13,7 +13,7 @@ class Aluno:
         self.matricula = matricula
         self.notas = []
 
-    def lancar_notas(self, valor: float):
+    def lancar_nota(self, valor: float):
         self.notas.append(valor)
 
     def media(self) -> float:
@@ -34,16 +34,16 @@ class Aluno:
 # Etapa 2 - Aplicação e Teste 
 
 aluno1 = Aluno("Pedro", "20261234")
-aluno1.lancar_notas(7.2)
-aluno1.lancar_notas(8.5)
+aluno1.lancar_nota(7.2)
+aluno1.lancar_nota(8.5)
 
 aluno2 = Aluno("Helena", "20261235")
-aluno2.lancar_notas(5.0)
-aluno2.lancar_notas(9.6)
+aluno2.lancar_nota(5.0)
+aluno2.lancar_nota(9.6)
 
-aluno3 = Aluno("Rafael", 20261236)
-aluno3.lancar_notas(6.0)
-aluno3.lancar_notas(10.0)
+aluno3 = Aluno("Rafael", "20261236")
+aluno3.lancar_nota(6.0)
+aluno3.lancar_nota(10.0)
 
 print("Alunos Aprovados:")
 for aluno in [aluno1, aluno2, aluno3]:
@@ -99,11 +99,12 @@ class Data:
     def __str__(self) -> str:
         return f"{self.dia:02d}/{self.mes:02d}/{self.ano:04d}"
 
+# Exemplos 
 
 d1 = Data(9, 8, 2026)
 print(d1)
 
-d2 = Data("09/08/2026")
+d2 = Data.de_texto("09/08/2026")
 print(d2)
 
 print(Data.bissexto(2024))
