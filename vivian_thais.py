@@ -97,7 +97,7 @@ class Data:
         return (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0)
 
     def __str__(self) -> str:
-        return f"{self.dia:02d}/{self.mes:02d}/{self.ano:04}d"
+        return f"{self.dia:02d}/{self.mes:02d}/{self.ano:04d}"
 
 
 d1 = Data(9, 8, 2026)
