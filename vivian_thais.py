@@ -33,7 +33,7 @@ class Aluno:
 
 # Etapa 2 - Aplicação e Teste 
 
-aluno1 = Aluno("Pedro", "20261234")
+aluno1 = Aluno("Ana", "20261234")
 aluno1.lancar_nota(7.2)
 aluno1.lancar_nota(8.5)
 
