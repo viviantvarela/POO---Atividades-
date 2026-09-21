@@ -2,7 +2,7 @@
 # Professor: Higor Morais
 # Turma: TSI 2026.2
 
-# Lista de Exercícios (POO) 
+# Lista 01 - Exercícios (POO) 
 
 # Aplicação - Aluno
 # Etapa 1 - Definição da classe Aluno
