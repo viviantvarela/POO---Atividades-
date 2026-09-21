@@ -82,7 +82,7 @@ print(r1 == r3)
 # Etapa 2 - Classe Data (dia, mês ano)
 
 class Data:
-    def __init__(self, dia: int, mes: int, ano: float):
+    def __init__(self, dia: int, mes: int, ano: int):
         self.dia = dia
         self.mes = mes
         self.ano = ano
